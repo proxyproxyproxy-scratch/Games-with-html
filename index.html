@@ -16,29 +16,33 @@ body {
 }
 ​
 /* Style the top navigation bar */
-.topnav {
+nav {
   text-align:center ;
 }
 ​
 
-.topnav ul{
+nav ul{
   margin:0 ;
   padding:0 ;
 }
 ​
-.topnav ul li{
+nav ul li{
   list-style:none ;
   display:inline-block ;
   width:18% ;
   min-width:90px ;
 }
 
-.topnav ul li a{
+nav ul li a{
   text-decoration:none ;
   color:#333 ;
 }
 
-.topnav ul li a:hover{
+nav ul li.current a{
+  color:F33135 ;
+}
+
+nav ul li a:hover{
   color:#e7da66 ;
 }
 ​
@@ -58,14 +62,14 @@ body {
 </head>
 <body>
 ​
-<div class="topnav">
+<nav>
   <ul>
-    <li><a href="#">Home</a></li>
+    <li class="current"><a href="#">Home</a></li>
     <li><a href="/events.html">Events</a></li>
     <li><a href="/projects.html">project</a></li>
     <li><a href="/about.html">about</a></li>
   </ul>
-</div>
+</nav>
 ​
 <div class="content">
   <h1>University of Fantasy</h1>
